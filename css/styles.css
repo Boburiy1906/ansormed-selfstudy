@@ -9,6 +9,7 @@ font-family: "open sans", "arial", sans-serif;
 font-size: 16px;
 line-height: 1.5;
 color: #444;
+background-color: #fff ;
 }
 
 /* CONTAINER */
@@ -19,4 +20,16 @@ padding-left: 30px;
 padding-right: 30px;
 margin-left: auto;
 margin-right: auto;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-icon{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+
 }
