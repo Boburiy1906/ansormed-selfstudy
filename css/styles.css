@@ -12,6 +12,10 @@ body {
   background-color: #fff;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 /* CONTAINER */
 .container {
@@ -205,27 +209,27 @@ body {
   text-align: center;
 }
 
-.services-list{
+.services-list {
   width: 864px;
-padding: 0;
-margin: 0;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 60px;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
 }
 
-.services-item{
+.services-item {
   display: flex;
   list-style: none;
   align-items: center;
 
-  }
+}
 
-.services-item:not(:last-child){
+.services-item:not(:last-child) {
   margin-bottom: 80px;
 }
 
-.services-img{
+.services-img {
   margin-right: 64px;
   width: 200px;
   height: 200px;
@@ -233,23 +237,66 @@ margin-bottom: 60px;
   object-fit: cover;
   border-radius: 24px;
 }
-.services-content-heading{
-margin-top: 0px;
-margin-bottom: 24px;
+
+.services-content-heading {
+  margin-top: 0px;
+  margin-bottom: 24px;
   font-family: "open sans condensed", "open sans", "arial", sans-serif;
-font-size: 24px;
-line-height: 1.2;
-color: #222;
-font-weight: bold;
-}
-.services-content-text{
-width: 600px;
-}
-.services-action{
-display: flex ;
-justify-content: center;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222;
+  font-weight: bold;
 }
 
+.services-content-text {
+  width: 600px;
+}
+
+.services-action {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* CTA */
+
+.cta {
+  margin-top: 64px;
+  height: 253px;
+  background-color: #0EB4C1;
+  color: #fff;
+}
+
+.cta-main-heading {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: "open sans condensed", "open sans""arial", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.cta-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-link-outline:not(:last-child) {
+  margin-right: 40px;
+}
+
+.main-link-outline {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.main-link-outline:hover {
+  background-color: #de2e54;
+  color: #fff;
+  border-color: transparent;
+}
 
 /* SITE-FOOTER */
 .site-footer {
