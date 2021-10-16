@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -12,9 +16,7 @@ body {
   background-color: #fff;
 }
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 
 /* CONTAINER */
@@ -46,7 +48,6 @@ html{
   display: flex;
   text-decoration: none;
   align-items: center;
-  margin-right: 114.5px;
   color: #222;
   font-weight: 600;
   font-size: 24px;
@@ -138,17 +139,20 @@ html{
 
 .hero {
   background-color: rgba(14, 180, 193, 1);
+  margin-bottom: 120px;
 }
 
 .hero-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content {
   margin-top: 120px;
   margin-bottom: 120px;
   color: #fff;
+  width: 500px;
 }
 
 .hero-heading {
@@ -156,8 +160,6 @@ html{
   font-family: "open sans condensed", "arial", sans-serif;
   font-size: 36px;
   line-height: 120%;
-  width: 500px;
-  height: 86px;
   margin-bottom: 16px;
 }
 
@@ -166,11 +168,9 @@ html{
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  width: 440px;
-  height: 108px;
   margin-top: 0px;
   margin-bottom: 36px;
-}
+  }
 
 .main-hero-link:hover {
   background-color: #de2e54cc;
@@ -185,15 +185,13 @@ html{
 .hero-img {
   width: 423px;
   height: 504px;
-  margin-left: 177px;
-  margin-top: 29px;
+  margin-top: 30px;
 }
 
 /* SERVICES */
 
 .services {
-  margin-top: 120px;
-  margin-bottom: 120px
+    margin-bottom: 120px
 }
 
 .services-heading {
@@ -238,6 +236,10 @@ html{
   border-radius: 24px;
 }
 
+.services-content{
+margin-top: 0px;
+}
+
 .services-content-heading {
   margin-top: 0px;
   margin-bottom: 24px;
@@ -250,6 +252,8 @@ html{
 
 .services-content-text {
   width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .services-action {
@@ -268,6 +272,7 @@ html{
 }
 
 .cta-main-heading {
+  padding-top: 64px;
   margin-top: 0px;
   margin-bottom: 40px;
   font-family: "open sans condensed", "open sans""arial", sans-serif;
